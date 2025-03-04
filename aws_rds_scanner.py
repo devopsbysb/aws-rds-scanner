@@ -4,7 +4,7 @@ import argparse
 
 def get_rds_instances(region):
     """Retrieve metadata of all AWS RDS instances in the given region."""
-    rds_client = boto3.client('rds', region_name=region)
+    rds_client = boto3.client('rds', region_name=ap-south-1)
 
     try:
         # Fetch all RDS instances
